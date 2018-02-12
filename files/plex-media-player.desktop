@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Plex Media Player
+Comment=Play movies and songs from your Plex server
+Icon=plex-media-player
+TryExec=plexmediaplayer
+Exec=plexmediaplayer
+Terminal=false
+Categories=AudioVideo;Audio;Video;Player;
+StartupWMClass=plexmediaplayer

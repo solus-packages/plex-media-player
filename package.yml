@@ -1,0 +1,31 @@
+name       : plex-media-player
+version    : 2.4.1
+release    : 1
+source     :
+    - https://github.com/plexinc/plex-media-player/archive/v2.4.1.787-54a020cd.tar.gz : 827f26c09eb74ae46ad51bab8f8c44c68b3409dc8657bb10f1ff949835201a75
+license    : GPL-2.0
+component  : multimedia.video
+networking : yes
+summary    : Plex Media Player is the go-to app for Home Theater PCs (HTPCs) connected to big screen TVs.
+description: |
+    Plex Media Player is the go-to app for Home Theater PCs (HTPCs) connected to big screen TVs.
+builddeps  :
+    - pkgconfig(gl)
+    - pkgconfig(libcec)
+    - pkgconfig(mpv)
+    - pkgconfig(Qt5Core)
+    - pkgconfig(Qt5WebChannel)
+    - pkgconfig(Qt5WebEngine)
+    - pkgconfig(Qt5X11Extras)
+    - pkgconfig(sdl2)
+rundeps    :
+    - qt5-quickcontrols
+setup      : |
+    %cmake -DQTROOT=/usr/share/qt5/ .
+build      : |
+    %make
+install    : |
+    %make_install
+    install -Dm00644 $pkgfiles/plex-media-player.desktop $installdir/usr/share/applications/plex-media-player.desktop
+    install -Dm00644 resources/images/icon.png $installdir/usr/share/pixmaps/plex-media-player.png
+    rm -rf $installdir/usr/resources

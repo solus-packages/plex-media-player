@@ -1,0 +1,176 @@
+<PISI>
+    <Source>
+        <Name>plex-media-player</Name>
+        <Packager>
+            <Name>Philipp Trulson</Name>
+            <Email>philipp@trulson.de</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>multimedia.video</PartOf>
+        <Summary xml:lang="en">Plex Media Player is the go-to app for Home Theater PCs (HTPCs) connected to big screen TVs.</Summary>
+        <Description xml:lang="en">Plex Media Player is the go-to app for Home Theater PCs (HTPCs) connected to big screen TVs.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>plex-media-player</Name>
+        <Summary xml:lang="en">Plex Media Player is the go-to app for Home Theater PCs (HTPCs) connected to big screen TVs.</Summary>
+        <Description xml:lang="en">Plex Media Player is the go-to app for Home Theater PCs (HTPCs) connected to big screen TVs.
+</Description>
+        <PartOf>multimedia.video</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications/plex-media-player.desktop</Path>
+            <Path fileType="data">/usr/share/pixmaps/plex-media-player.png</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/_FINISHED</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/common/img/backgrounds/noise.8b05ce45d0df59343e206bc9ae78d85d.png</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/common/img/backgrounds/preset-dark.64cc1c942221cd2c153244bd8ecfb67a.png</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/common/img/backgrounds/preset-light.770a0981b66e038d3ffffbcc4f5a26a4.png</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/common/img/plex-pass.e73cc397459c4930e842b86b27d05eb9.svg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/common/img/ratings/rt-fresh-popcorn-simple-560.0b480f0fd472e41e3ec7b98e4486924e.svg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/common/img/ratings/rt-rotten-splat-simple-560.cda5563a2ce74777ddb3bf362889830c.svg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/common/img/ratings/rt-spilt-popcorn-simple-560.401929bf10e2073fbdc60ae78974910a.svg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/desktop/common/img/devices/linux.e80fefdbe1947faf2913d4ce0043c707.svg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/desktop/common/img/platform-logos/linux.a66ceca3ea9d4b6261bc0bbbed31f8e1.svg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/desktop/common/img/platform-logos/seagate.4f1104d9e8724381ca285aaaa8df0b5d.svg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/desktop/common/img/platform-logos/synology.f796634e7aad4aaed474601d28c9f562.svg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/desktop/common/img/queue/bookmarklet-steps-ie.e1c6fdac9ebb412b44c23020cdcd9732.png</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/desktop/common/img/queue/bookmarklet-steps.3efabfa27f2ed5f581e1ea9b13c4e408.png</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/desktop/common/img/queue/email-links.6297c2e03777223f23acafccfe90ebbc.png</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/desktop/common/img/vendor-logos/gracenote.c86b1d7624b5ae14ca7a30d73674a808.svg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/desktop/common/img/vendor-logos/songkick.19411461aa7bffd06675aaa8a3d0a056.svg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/index.html</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/js/chunk-0-32c1abf0a1cb2697cf96-plex-3.35.2-13d1fc7.js</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/js/main-1-4cc80d40a5529bb85efd-plex-3.35.2-13d1fc7.js</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/js/manifest-3-b23bfdd22e0eccc3accd-plex-3.35.2-13d1fc7.js</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/js/vendors-2-12a1dac7cdb9f06ebc96-plex-3.35.2-13d1fc7.js</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/main.7260f2041f38fc2f12b65aa1658a3d30.css</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/main.v3.c7008760200ce40419a24d0b82b2c7c6.css</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/af.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/ar.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/bg.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/ca.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/cs.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/da.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/de.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/el.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/en-GB.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/en.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/es-419.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/es.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/et.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/fa.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/fi.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/fr-CA.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/fr.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/he.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/hr.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/hu.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/is.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/it.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/ja.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/ko.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/lt.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/my.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/nl.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/no.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/pl.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/pt-BR.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/pt.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/ro.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/ru.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/sk.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/sl.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/sr.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/sv.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/th.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/tr.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/uk.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/vi.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/zh-TW.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/translations/zh.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/_FINISHED</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/common/img/plex-pass.e73cc397459c4930e842b86b27d05eb9.svg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/common/img/posters/square.2b3b1126b78aa4ebfd5441bb9b9363f2.png</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/common/img/posters/standard.d81d4316ab6047d517f7c3df39a2fbdd.png</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/common/img/posters/widescreen.9998be176d53f7db1d9d6bccc3550326.png</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/common/img/ratings/rt-fresh-popcorn-simple-560.0b480f0fd472e41e3ec7b98e4486924e.svg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/common/img/ratings/rt-rotten-splat-simple-560.cda5563a2ce74777ddb3bf362889830c.svg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/common/img/ratings/rt-spilt-popcorn-simple-560.401929bf10e2073fbdc60ae78974910a.svg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/index.html</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/js/main-0-983b43a812615870bb29-plex-3.36.2-2e815e1.js</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/main.b439fb315adb7267be0379ac62b2f3a7.css</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/main.v3.c46c3de5217b91678856120be89f528f.css</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/af.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/ar.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/bg.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/ca.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/cs.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/da.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/de.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/el.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/en-GB.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/en.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/es-419.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/es.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/et.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/fa.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/fi.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/fr-CA.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/fr.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/he.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/hr.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/hu.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/is.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/it.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/ja.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/ko.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/lt.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/my.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/nl.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/no.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/pl.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/pt-BR.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/pt.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/ro.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/ru.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/sk.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/sl.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/sr.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/sv.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/th.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/tr.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/uk.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/vi.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/zh-TW.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/zh.json</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv-old/common/img/splash/welcome-1280x720.b9a49555a00626af8f39f222c0222e89.jpg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv-old/common/img/splash/welcome-1920x1080.d342eeb205a714068cf97666ef3ae6f0.jpg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv-old/common/img/splash/welcome-2560x1440.8265c4565566793df8f97953bf4ad725.jpg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv-old/common/img/splash/welcome-3840x2160.4bc0f1fedd0e0068e97077df1da6ae39.jpg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv-old/common/img/splash/welcome-blur-1280x720.40716e5ebb7757b6130bf7f3a8676516.jpg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv-old/common/img/splash/welcome-blur-1920x1080.cef5089b062241390b0956cfe3953c35.jpg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv-old/common/img/splash/welcome-blur-2560x1440.7fc773a8bf967146a96e37e344e02600.jpg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv-old/common/img/splash/welcome-blur-3840x2160.ded398c007652215345fc5c7e35b8081.jpg</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv/common/js/views/v3/components/core/background/preset0-large.3f3d57b7432b99a291e7e206be8bec57.gif</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv/common/js/views/v3/components/core/background/preset0.bb421ea60c0413ab92b779d223ba7309.png</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv/common/js/views/v3/components/core/background/preset1-large.c71eb2052d9427e6b76a9c083d9ec3d4.gif</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv/common/js/views/v3/components/core/background/preset1.2c6290664a0ba296f1170af3f88a9894.png</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv/common/js/views/v3/components/core/background/preset2-large.09203603bf57cb7a91bfbe477a30cdb0.gif</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv/common/js/views/v3/components/core/background/preset2.84b59999ff6c434c79b79d55108200c0.png</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv/common/js/views/v3/components/core/background/preset3-large.863f3169e8f586dc048cc00fc1d384b2.gif</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv/common/js/views/v3/components/core/background/preset3.a63dd1287b3b05f30b708986cd5bab3e.png</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv/common/js/views/v3/components/core/background/preset4-large.54359ef8ade2e611db6cceb953dbaa7b.gif</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/tv/common/js/views/v3/components/core/background/preset4.a23cff620ef858a9580b5abe8162fb83.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-02-12</Date>
+            <Version>2.4.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Philipp Trulson</Name>
+            <Email>philipp@trulson.de</Email>
+        </Update>
+    </History>
+</PISI>
