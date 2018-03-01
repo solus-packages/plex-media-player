@@ -1,8 +1,8 @@
 name       : plex-media-player
-version    : 2.4.1
-release    : 1
+version    : 2.5.0
+release    : 2
 source     :
-    - https://github.com/plexinc/plex-media-player/archive/v2.4.1.787-54a020cd.tar.gz : 827f26c09eb74ae46ad51bab8f8c44c68b3409dc8657bb10f1ff949835201a75
+    - https://github.com/plexinc/plex-media-player/archive/v2.5.0.792-1bc7f225.tar.gz : a3758a0c1239514e86fc45913d3896d7b63c12e2c7738e2c2ef3d0fb708e5436
 license    : GPL-2.0
 component  : multimedia.video
 networking : yes
