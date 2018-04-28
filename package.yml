@@ -1,9 +1,9 @@
 name       : plex-media-player
-version    : 2.7.0
-release    : 3
+version    : 2.9.0
+release    : 4
 source     :
-    - https://github.com/plexinc/plex-media-player/archive/v2.7.0.806-608417d4.tar.gz : 37641346e4958fcf64271eb8af16c47d7a264ca5be51a84aa74843e6a6aec109
-license    : GPL-2.0
+    - https://github.com/plexinc/plex-media-player/archive/v2.9.0.824-706dec50.tar.gz : cdb21fe5fdb59efedf7446ef4488072ef87f421d502e46acbb3ae83c798fdf44
+license    : GPL-2.0-only
 component  : multimedia.video
 networking : yes
 summary    : Plex Media Player is the go-to app for Home Theater PCs (HTPCs) connected to big screen TVs.
