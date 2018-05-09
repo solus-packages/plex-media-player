@@ -1,10 +1,25 @@
 [Desktop Entry]
-Type=Application
+Version=1.0
 Name=Plex Media Player
-Comment=Play movies and songs from your Plex server
-Icon=plex-media-player
-TryExec=plexmediaplayer
-Exec=plexmediaplayer
+GenericName=Media Player
+Comment=View your media
+Exec=plexmediaplayer --windowed --desktop
+Icon=plexmediaplayer
 Terminal=false
-Categories=AudioVideo;Audio;Video;Player;
+Type=Application
+Categories=AudioVideo;Video;Player;TV;
 StartupWMClass=plexmediaplayer
+
+Actions=TV;DesktopF;DesktopW;
+
+[Desktop Action TV]
+Name=TV
+Exec=plexmediaplayer --fullscreen --tv
+
+[Desktop Action DesktopF]
+Name=Desktop [Fullscreen]
+Exec=plexmediaplayer --fullscreen --desktop
+
+[Desktop Action DesktopW]
+Name=Desktop [Windowed]
+Exec=plexmediaplayer --windowed --desktop

@@ -21,7 +21,7 @@
         <Files>
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="data">/usr/share/applications/plex-media-player.desktop</Path>
-            <Path fileType="data">/usr/share/pixmaps/plex-media-player.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/plexmediaplayer.svg</Path>
             <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/_FINISHED</Path>
             <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/common/img/backgrounds/noise.8b05ce45d0df59343e206bc9ae78d85d.png</Path>
             <Path fileType="data">/usr/share/plexmediaplayer/web-client/desktop/common/img/backgrounds/preset-dark.64cc1c942221cd2c153244bd8ecfb67a.png</Path>
@@ -96,9 +96,9 @@
             <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/common/img/ratings/rt-certified-fresh-560.473791e4a8e562bf4e88e303479f6673.svg</Path>
             <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/common/img/ratings/rt-spilt-popcorn-simple-560.9a19d1f519fb092eedab5ed22770289d.svg</Path>
             <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/index.html</Path>
-            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/js/main-0-774ec35eee3c7a6b762e-plex-3.48.1-f0f7af5.js</Path>
-            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/main.224dda55925241ea6a35ea1af17b9737.css</Path>
-            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/main.v3.71afe72183b1876a5f0f3b7df4361a39.css</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/js/main-0-6d3d699778b836bf8a1b-plex-3.51.1-7a9749e.js</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/main.7bfa9719afdf49940fc48d58c6a3798e.css</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/main.v3.4fd7d24f769b3c490c067feef407454b.css</Path>
             <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/af.json</Path>
             <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/ar.json</Path>
             <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/bg.json</Path>
@@ -163,9 +163,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2018-04-25</Date>
-            <Version>2.9.0</Version>
+        <Update release="5">
+            <Date>2018-05-08</Date>
+            <Version>2.10.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Philipp Trulson</Name>
             <Email>philipp@trulson.de</Email>

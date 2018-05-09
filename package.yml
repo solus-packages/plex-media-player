@@ -1,8 +1,8 @@
 name       : plex-media-player
-version    : 2.9.0
-release    : 4
+version    : 2.10.0
+release    : 5
 source     :
-    - https://github.com/plexinc/plex-media-player/archive/v2.9.0.824-706dec50.tar.gz : cdb21fe5fdb59efedf7446ef4488072ef87f421d502e46acbb3ae83c798fdf44
+    - https://github.com/plexinc/plex-media-player/archive/v2.10.0.849-e02dbeca.tar.gz : 499a0d73771c09b38c65dce4844fc95f0f22ed20f1de4ab975e078f0254243e8
 license    : GPL-2.0-only
 component  : multimedia.video
 networking : yes
@@ -27,5 +27,5 @@ build      : |
 install    : |
     %make_install
     install -Dm00644 $pkgfiles/plex-media-player.desktop $installdir/usr/share/applications/plex-media-player.desktop
-    install -Dm00644 resources/images/icon.png $installdir/usr/share/pixmaps/plex-media-player.png
+    rm -f $installdir/usr/share/applications/plexmediaplayer.desktop
     rm -rf $installdir/usr/resources
