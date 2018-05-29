@@ -96,9 +96,9 @@
             <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/common/img/ratings/rt-certified-fresh-560.473791e4a8e562bf4e88e303479f6673.svg</Path>
             <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/common/img/ratings/rt-spilt-popcorn-simple-560.9a19d1f519fb092eedab5ed22770289d.svg</Path>
             <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/index.html</Path>
-            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/js/main-0-6d3d699778b836bf8a1b-plex-3.51.1-7a9749e.js</Path>
-            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/main.7bfa9719afdf49940fc48d58c6a3798e.css</Path>
-            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/main.v3.4fd7d24f769b3c490c067feef407454b.css</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/js/main-0-9fb3a3538199c0c36733-plex-3.54.1-567b69e.js</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/main.2efafc570f1520443728acc6f487ec3b.css</Path>
+            <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/main.v3.b4fa990c4a416a0182586e29f7d16d13.css</Path>
             <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/af.json</Path>
             <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/ar.json</Path>
             <Path fileType="data">/usr/share/plexmediaplayer/web-client/tv/translations/bg.json</Path>
@@ -163,9 +163,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="5">
-            <Date>2018-05-08</Date>
-            <Version>2.10.0</Version>
+        <Update release="6">
+            <Date>2018-05-29</Date>
+            <Version>2.11.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Philipp Trulson</Name>
             <Email>philipp@trulson.de</Email>

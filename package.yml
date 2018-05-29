@@ -1,8 +1,8 @@
 name       : plex-media-player
-version    : 2.10.0
-release    : 5
+version    : 2.11.0
+release    : 6
 source     :
-    - https://github.com/plexinc/plex-media-player/archive/v2.10.0.849-e02dbeca.tar.gz : 499a0d73771c09b38c65dce4844fc95f0f22ed20f1de4ab975e078f0254243e8
+    - https://github.com/plexinc/plex-media-player/archive/v2.11.0.867-f27f8d2a.tar.gz : 9b8b2083d885fec5c6a8318e99688dd6ecb9596e356e4098bb480ff3288ed8ed
 license    : GPL-2.0-only
 component  : multimedia.video
 networking : yes
@@ -21,11 +21,11 @@ builddeps  :
 rundeps    :
     - qt5-quickcontrols
 setup      : |
-    %cmake -DQTROOT=/usr/share/qt5/ .
+    %cmake_ninja -DQTROOT=/usr/share/qt5/
 build      : |
-    %make
+    %ninja_build
 install    : |
-    %make_install
+    %ninja_install
     install -Dm00644 $pkgfiles/plex-media-player.desktop $installdir/usr/share/applications/plex-media-player.desktop
     rm -f $installdir/usr/share/applications/plexmediaplayer.desktop
     rm -rf $installdir/usr/resources
