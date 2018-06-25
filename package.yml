@@ -1,8 +1,8 @@
 name       : plex-media-player
-version    : 2.12.0
-release    : 7
+version    : 2.12.1
+release    : 8
 source     :
-    - git|https://github.com/plexinc/plex-media-player.git : v2.12.0.869-010a1af4
+    - git|https://github.com/plexinc/plex-media-player.git : v2.12.1.871-6c71195e
 license    : GPL-2.0-only
 component  : multimedia.video
 networking : yes
